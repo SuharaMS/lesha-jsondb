@@ -1,0 +1,44 @@
+{
+  "customers": [
+    {
+      "customerId": "100055",
+      "customerName": "John Mathew",
+      "accountNumber": "2000000135",
+      "accountType": "SAVINGS",
+      "currency": "QAR",
+      "balance": 12500.75,
+      "branchCode": "001",
+      "status": "ACTIVE"
+    },
+    {
+      "customerId": "100056",
+      "customerName": "Aisha Rahman",
+      "accountNumber": "2000000136",
+      "accountType": "CURRENT",
+      "currency": "USD",
+      "balance": 8930.25,
+      "branchCode": "002",
+      "status": "ACTIVE"
+    }
+  ],
+  "deposits": [
+    {
+      "depositId": "D001",
+      "customerId": "100055",
+      "productType": "Mudaraba",
+      "principalAmount": 10000.0,
+      "profitRate": 2.0,
+      "maturityDate": "2025-12-31",
+      "status": "OPEN"
+    },
+    {
+      "depositId": "D002",
+      "customerId": "100056",
+      "productType": "Fixed Deposit",
+      "principalAmount": 15000.0,
+      "profitRate": 1.8,
+      "maturityDate": "2026-06-30",
+      "status": "OPEN"
+    }
+  ]
+}
