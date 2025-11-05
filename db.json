@@ -21,24 +21,87 @@
       "status": "ACTIVE"
     }
   ],
+  
+  "cashdetails": [
+    {
+      "header": {
+        "audit": {
+          "T24_time": 1413,
+          "responseParse_time": 20,
+          "requestParse_time": 1719
+        },
+        "page_start": 1,
+        "page_token": "202505083976529626.02,99",
+        "total_size": 4,
+        "page_size": 99,
+        "status": "success"
+      },
+      "body": [
+        {
+          "accountStatus": "ACTIVE",
+          "accountId": "2000010718",
+          "valueInReferenceCurrency": "47670615.82",
+          "iban": "QA31QFIB000000000002000010718",
+          "onlineActualBalance": "47,670,615.82",
+          "workingBalance": "47,670,615.82",
+          "description": "Current Account- Islamic Corporate",
+          "openActualBalance": "47,670,615.82",
+          "currency": "QAR",
+          "openingDate": "19 SEP 2019"
+        },
+        {
+          "accountStatus": "ACTIVE",
+          "accountId": "2000011258",
+          "valueInReferenceCurrency": "243762.70",
+          "iban": "QA98QFIB000000000002000011258",
+          "onlineActualBalance": "73,422.50",
+          "workingBalance": "73,422.50",
+          "description": "Current Account- Islamic Corporate",
+          "openActualBalance": "73,422.50",
+          "currency": "USD",
+          "openingDate": "12 DEC 2019"
+        }
+      ]
+    }
+  ],
+
   "deposits": [
     {
-      "depositId": "D001",
+      "depositId": "MM2217804824",
       "customerId": "100055",
-      "productType": "Mudaraba",
-      "principalAmount": 10000.0,
-      "profitRate": 2.0,
-      "maturityDate": "2025-12-31",
-      "status": "OPEN"
+      "principal": 1000.00,
+      "interestRate": 2.0,
+      "maturityDate": "2025-05-29",
+      "status": "ACTIVE"
     },
     {
-      "depositId": "D002",
+      "depositId": "MM2217804825",
       "customerId": "100056",
-      "productType": "Fixed Deposit",
-      "principalAmount": 15000.0,
-      "profitRate": 1.8,
-      "maturityDate": "2026-06-30",
-      "status": "OPEN"
+      "principal": 2500.00,
+      "interestRate": 2.5,
+      "maturityDate": "2025-06-15",
+      "status": "ACTIVE"
+    }
+  ],
+
+  "transactions": [
+    {
+      "transactionId": "TX1001",
+      "customerId": "100055",
+      "amount": 250.00,
+      "currency": "QAR",
+      "type": "DEBIT",
+      "description": "ATM Withdrawal",
+      "date": "2025-11-01"
+    },
+    {
+      "transactionId": "TX1002",
+      "customerId": "100056",
+      "amount": 300.00,
+      "currency": "USD",
+      "type": "CREDIT",
+      "description": "Salary Credit",
+      "date": "2025-11-03"
     }
   ]
 }
