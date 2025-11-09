@@ -103,5 +103,20 @@
       "description": "Salary Credit",
       "date": "2025-11-03"
     }
+  ],
+  {
+  "customers": [ ... ],
+  "cashdetails": [ ... ],
+  "accountcreation": [
+    {
+      "coCode": "QA0010100",
+      "customerId": "123",
+      "channel": "Kyc app",
+      "currency": "QAR",
+      "category": "1001",
+      "alternateAccountId": "QA17QFIB0000000000020000840846",
+      "status": "success"
+    }
   ]
+}
 }
