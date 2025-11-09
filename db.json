@@ -1,64 +1,19 @@
-{
-  "customers": [
-    {
-      "customerId": "100055",
-      "customerName": "John Mathew",
-      "accountNumber": "2000000135",
-      "accountType": "SAVINGS",
-      "currency": "QAR",
-      "balance": 12500.75,
-      "branchCode": "001",
-      "status": "ACTIVE"
-    }
-  ],
-  "cashdetails": [
-    {
-      "accountStatus": "ACTIVE",
-      "accountId": "2000010718",
-      "valueInReferenceCurrency": "47670615.82",
-      "iban": "QA31QFIB000000000002000010718",
-      "onlineActualBalance": "47,670,615.82",
-      "workingBalance": "47,670,615.82",
-      "description": "Current Account- Islamic Corporate",
-      "openActualBalance": "47,670,615.82",
-      "currency": "QAR",
-      "openingDate": "19 SEP 2019"
-    },
-    {
-      "accountStatus": "ACTIVE",
-      "accountId": "2000011258",
-      "valueInReferenceCurrency": "243762.70",
-      "iban": "QA98QFIB000000000002000011258",
-      "onlineActualBalance": "73,422.50",
-      "workingBalance": "73,422.50",
-      "description": "Current Account- Islamic Corporate",
-      "openActualBalance": "73,422.50",
-      "currency": "USD",
-      "openingDate": "12 DEC 2019"
-    }
-  ],
+
+  {
   "accountcreation": [
     {
       "header": {
         "transactionStatus": "Live",
-        "audit": {
-          "T24_time": 998,
-          "responseParse_time": 8,
-          "requestParse_time": 69,
-          "versionNumber": "1"
-        },
-        "id": "20000840846",
         "status": "success",
         "uniqueIdentifier": "1272252rt12"
       },
       "body": {
         "coCode": "QA0010100",
         "customerId": "123",
-        "channel": "Kyc app",
         "currency": "QAR",
-        "category": "1001",
         "alternateAccountId": "QA17QFIB0000000000020000840846"
       }
     }
   ]
 }
+
