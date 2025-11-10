@@ -1,0 +1,36 @@
+{
+  "header": {
+    "audit": {
+      "T24_time": 1250,
+      "responseParse_time": 18,
+      "requestParse_time": 55
+    },
+    "page_start": 1,
+    "page_token": "202505083976529626.03,99",
+    "total_size": 2,
+    "page_size": 99,
+    "status": "success"
+  },
+  "body": [
+    {
+      "depositId": "3000012568",
+      "depositType": "Mudaraba Deposit",
+      "tenure": "12 Months",
+      "currency": "QAR",
+      "depositAmount": "250000.00",
+      "profitRate": "3.25",
+      "maturityDate": "20 MAY 2025",
+      "status": "ACTIVE"
+    },
+    {
+      "depositId": "3000012569",
+      "depositType": "Call Deposit",
+      "tenure": "3 Months",
+      "currency": "USD",
+      "depositAmount": "150000.00",
+      "profitRate": "2.75",
+      "maturityDate": "10 JAN 2025",
+      "status": "CLOSED"
+    }
+  ]
+}
