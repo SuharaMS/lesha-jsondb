@@ -1,0 +1,44 @@
+{
+  "header": {
+    "status": "success",
+    "total_size": 4
+  },
+  "body": [
+    {
+      "accountStatus": "ACTIVE",
+      "accountId": "2000010718",
+      "iban": "QA31QFIB000000000002000010718",
+      "currency": "QAR",
+      "description": "Current Account - Islamic Corporate",
+      "openingDate": "19-SEP-2019",
+      "onlineActualBalance": "47670615.82"
+    },
+    {
+      "accountStatus": "ACTIVE",
+      "accountId": "2000011258",
+      "iban": "QA98QFIB000000000002000011258",
+      "currency": "USD",
+      "description": "Current Account - Islamic Corporate",
+      "openingDate": "12-DEC-2019",
+      "onlineActualBalance": "73422.50"
+    },
+    {
+      "accountStatus": "ACTIVE",
+      "accountId": "2000012235",
+      "iban": "QA15QFIB000000000002000012235",
+      "currency": "GBP",
+      "description": "Current Account - Corporate",
+      "openingDate": "05-JAN-2020",
+      "onlineActualBalance": "22315.72"
+    },
+    {
+      "accountStatus": "ACTIVE",
+      "accountId": "2000013344",
+      "iban": "QA71QFIB000000000002000013344",
+      "currency": "EUR",
+      "description": "Current Account - Corporate",
+      "openingDate": "22-FEB-2020",
+      "onlineActualBalance": "15678.00"
+    }
+  ]
+}
