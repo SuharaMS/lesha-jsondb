@@ -1,0 +1,8 @@
+{
+  "type": "BUSINESS",
+  "source": "T24",
+  "systemTime": "2025-11-11T00:00:00Z",
+  "code": "No-10001",
+  "message": "NO DATA FOUND",
+  "description": "The provider system returned an empty response with no data available for the requested criteria."
+}
